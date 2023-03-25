@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/images/1679763960522_resized (1).png" />
+    <script
+      src="https://kit.fontawesome.com/ef2c46f17f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>jonatan angelim portifolio</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == "flex") {
+                    document.querySelector(".menu nav ul").style.display = "none";
+                } else {
+                    document.querySelector(".menu nav ul").style.display = "flex";
+                }
+            });
+        };
+    </script>
+
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <img src="assets/images/1679763960522_resized (1).png" alt="">
+        </div>
+        <div class="menu">
+          <nav>
+            <div class="menu_mobile">
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+            </div>
+            <ul>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#sobre-mim">Sobre</a></li>
+              <li><a href="#conhecimentos">Conhecimentos</a></li>
+              <li>
+                <a href="#contato" class="menu-buttom">Contato</a>    
+              </li>
+              <li>
+                <a href="https://www.github.com/JonatanAJ" target="_blank">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jonatan-angelim-a10289252/" target="_blank">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner-esquerda">
+                        <p>Olá Mundo! <span> 😊 </span> Meu nome é Jonatan Angelim</p>
+                        <h1>Jonatan Angelim</h1>
+                        <h2>Desenvolvedor</h2>
+                        <p>Programador web com foco no mundo Front-End!</p>
+                        <a href="#sobre-mim" class="buttom">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-mim">
+            <div class="container">
+                <div class="sobre-mim">
+                    <div class="sobre-mim-esquerda">
+                        <img id="foto" src="assets/images/Meu projeto (1).jpg">
+                    </div>
+                    <div class="sobre-mim-direita">
+                        <div class="titulo">
+                            <p>Quem sou eu</p>
+                            <h1>Sobre mim</h1>
+                        </div>
+                        <p> Sou obcecado pela Internet e como ela funciona, então experimentar novas tecnologias é muito divertido para mim. Gosto de me sentir desafiado e encontrar satisfação pessoal em aprender coisas novas. Conheci a área daprogramação a 2 anos atrás e me apaixonei pelo mundo da tecnologia, atualmente estou me dedicando para trabalhar com o desenvolvimento Web Frontend tenho conhecimento em HTML, CSS, JavaScript, Git/Github e começando os estudos com React e Typescript, estou sempre em constante aprendizado e em busca por novos desafios. Sinta-se livre para me acompanhar e entrar em contato comigo! 🚀</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id="conhecimentos">
+            <div class="container">
+                <div class="conhecimentos">
+                    <div class="titulo">
+                        <p>O que estou estudando</p>
+                        <h1>Conhecimentos</h1>
+                    </div>
+                    <div class="conhecimentos-cards">
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/html_icon.png">
+                            <h2>HTML</h2>
+                            <p>HTMl é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+                            </div>            
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/css_icon.png">
+                            <h2>CSS</h2>
+                            <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem de marcação HTML.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/js_icon.png">
+                            <h2>Javascript</h2>
+                            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                            </div>   
+                        </div>
+                    
+                     
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contato" class="container">
+            <h2>Contato</h2>
+            <form action="https://formsubmit.co/jonatanangelimmm@gmail.com" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="email" name="name" placeholder="Digite seu email" autocomplete="off" required>
+                <label>Mensagem</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="_next" value="https://jonatanaj.github.io/pagina-obrigado/">
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+             <div class="texto">
+                <h1 class="titulo">Jonatan Angelim</h1>
+                <p>©2023 por Jonatan Angelim</p>
+            </div>
+            <div class="whatsap">
+                <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5588981542916" target="_blank" >
+                     <img id="whatsapp" src="./assets/images/whatsapp.png" alt="">  
+                </a>        
+            </div>             
+    </footer>
+   
+  </body>
+</html>
