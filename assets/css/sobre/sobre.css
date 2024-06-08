@@ -56,3 +56,19 @@
   margin-top: 30px;
   font-size: 2rem;
 }
+
+.texthtml{
+color: var(--html-color);
+}
+.textcss{
+  color: var(--css-color);
+}
+.textphp{
+  color: var(--php-color);
+}
+.textbd{
+  color: var(--bd-color);
+}
+.textbt{
+  color: var(--bootstrap-color);
+}

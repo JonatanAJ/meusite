@@ -1,14 +1,16 @@
 :root {
   --bg-primary: #151515;
-  --bg-second: rgba(24, 24, 24, 70);
-  --primary: linear-gradient(#c244d3, #f432aa);
+  --bg-second: #343434;
+  --bg-terciary: #FFFFFF;
+  --primary: linear-gradient(#0D4C73, #176FA6);
   --second: #fff;
-  --terciary: #e432f4;
+  --terciary: #0245fc;
   --html-color: #ff6d00;
-  --css-color: #039be5;
+  --css-color: #29C7D9;
   --js-color: #ffd600;
-  --react-color: #40c4ff;
-  --typescript-color: #007acc;
+  --php-color: #176FA6;
+  --bd-color: #accce3;
+  --bootstrap-color: #8056d9;
 }
 * {
   margin: 0px;

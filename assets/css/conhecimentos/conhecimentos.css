@@ -2,10 +2,12 @@
   display: flex;
   justify-content: center;
   padding: 200px 10px;
+  background-color: var(--bg-terciary);
 }
 
 .conhecimentos .titulo {
   text-align: center;
+  color: black;
 }
 
 .conhecimentos-cards {
@@ -15,7 +17,7 @@
   margin-top: 50px;
 }
 
-.conhecimentos .card {
+ .card {
   width: 380px;
   margin: 20px;
   background-color: var(--bg-second);
@@ -42,12 +44,16 @@
 }
 
 .conhecimentos .card:nth-child(4)::after {
-  background-color: var(--typescript-color);
+  background-color: var(--php-color);
 }
 
 .conhecimentos .card:nth-child(5)::after {
-  background-color: var(--react-color);
+  background-color: var(--bd-color);
 }
+.conhecimentos .card:nth-child(6)::after {
+  background-color: var(--bootstrap-color);
+}
+
 
 .conhecimentos .card:hover {
   transform: scale(1.1);
